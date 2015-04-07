@@ -13,9 +13,9 @@ table { width:100%;}
 table caption { text-align:left; font-size: 3em; }
 table td:first-child { font-style: italic;}
 table tbody td:first-child { color: red;}
-
-table tbody tr:nth-child(odd)  { background-color: lightgreen;}
-table tbody tr:nth-child(even) { background-color: lightblue;}
+table tbody td:nth-child(3) { color: blue;}
+table tbody tr:nth-child(odd), tfoot  { background-color: lightgreen;}
+table tbody tr:nth-child(even), tfoot { background-color: lightblue;}
 
 /*DL list*/
 dt:hover + dd{background-color: purple;}
@@ -27,12 +27,22 @@ input:active {-webkit-box-shadow: #555555 inset;}
 .outer-content{
     background-color: pink;
     width: 75%;
+    float: left;
     margin-top: 20px;
-    display: table-cell;  vertical-align: middle;
+    clear:both;
+
 }
-.inner-content{background-color: blue; width: 75%; margin: 0 auto; }
 
+.inner-content{
+    background-color: blue;
+    width: inherit;
+    margin: 0 auto;
+}
 
-
+img{
+    margin:15px;
+    float:left;
+}
+section{display: block; clear:both;}
 
 
