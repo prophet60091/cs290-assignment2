@@ -1,0 +1,38 @@
+/* Style Sheet
+Robert Jackson
+CS 290 Assignment 2
+*/
+
+/*because Browser Support*/
+section, article, aside, footer, header, nav, hgroup {
+    display:block;
+}
+
+/*Table */
+table { width:100%;}
+table caption { text-align:left; font-size: 3em; }
+table td:first-child { font-style: italic;}
+table tbody td:first-child { color: red;}
+
+table tbody tr:nth-child(odd)  { background-color: lightgreen;}
+table tbody tr:nth-child(even) { background-color: lightblue;}
+
+/*DL list*/
+dt:hover + dd{background-color: purple;}
+
+/*Form*/
+input:active {-webkit-box-shadow: #555555 inset;}
+
+/*Div*/
+.outer-content{
+    background-color: pink;
+    width: 75%;
+    margin-top: 20px;
+    display: table-cell;  vertical-align: middle;
+}
+.inner-content{background-color: blue; width: 75%; margin: 0 auto; }
+
+
+
+
+
