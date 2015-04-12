@@ -11,8 +11,7 @@ section, article, aside, footer, header, nav, hgroup {
 /*Table */
 table { width:100%;}
 table caption { text-align:left; font-size: 3em; }
-table td:first-child { font-style: italic;}
-table tbody td:first-child { color: red;}
+table tbody td:first-child { font-style: italic; color: red}
 table tbody td:nth-child(3) { color: blue;}
 table tbody tr:nth-child(odd), tfoot  { background-color: lightgreen;}
 table tbody tr:nth-child(even), tfoot { background-color: lightblue;}
